@@ -9,6 +9,5 @@ langgraph
 chromadb
 python-dotenv
 pypdf
-streamlit
 requests
 sentence-transformers
