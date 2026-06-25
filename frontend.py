@@ -33,7 +33,8 @@ if prompt := st.chat_input("Ask about machine status or troubleshooting..."):
     with st.spinner("AI is analyzing manuals and live data..."):
         try:
             # Send request to your FastAPI backend
-            response = requests.post("http://localhost:8000/ask", json={"query": prompt})
+            response = requests.post("https://bunnnyyy2005-smart-engineering-rag.hf.space/ask", json={"query": prompt})
+
             response.raise_for_status()
             
             # Extract the AI's answer
