@@ -11,3 +11,4 @@ python-dotenv
 pypdf
 streamlit
 requests
+sentence-transformers
